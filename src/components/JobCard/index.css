@@ -1,0 +1,110 @@
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px; /* Further reduced padding */
+  background-color: #272727;
+  border-radius: 12px;
+  margin-bottom: 16px; /* Reduced margin between cards */
+  width: 92%;
+  line-height: 1;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-link-styles {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.company-logo-styles {
+  height: 50px;
+  width: 50px;
+}
+
+.title-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px; /* Further reduced margin */
+  margin-top: 10px;
+}
+
+.job-card-title {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.star-and-rating-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.star-styles {
+  color: #fbbf24;
+  height: 16px;
+  width: 16px;
+  margin-right: 6px; /* Further reduced margin */
+  margin-top: 0;
+}
+
+.rating-num-styles {
+  font-size: 16px;
+  color: white;
+}
+
+.location-and-employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px; /* Reduced margin */
+}
+
+.location-bag-icons-styles {
+  color: white;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px; /* Reduced margin */
+}
+
+.location-employment-styles {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 8px; /* Reduced margin */
+}
+
+.package-styles {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.divider-styles {
+  border-top: 1px solid #cbd5e1;
+  margin-top: 0; /* Reduced margin */
+}
+
+.description-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px; /* Added margin to separate from description */
+}
+
+.job-card-description {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}

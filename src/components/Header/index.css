@@ -1,0 +1,36 @@
+.nav-bar {
+  background-color: #202020;
+  width: 100%;
+}
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px 5px 10px;
+}
+.nav-bar-items {
+  list-style-type: none;
+}
+.website-logo {
+  width: 120px;
+}
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  width: 8%;
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.logout-button {
+  background-color: #4f46e5;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 8px 25px 8px 25px;
+  border-radius: 5px;
+  color: #ffffff;
+}

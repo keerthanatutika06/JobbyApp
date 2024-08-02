@@ -1,0 +1,46 @@
+.similar-job-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  font-family: 'Roboto';
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  max-width: 300px;
+}
+.similar-card-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.similar-card-logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.similar-card-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.similar-card-title {
+  font-size: 20px;
+}
+.similar-card-rating-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-between;
+  width: 30%;
+}
+.similar-card-title {
+  margin: 0;
+}
+.similar-card-desc {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 300;
+}
+.desc-heading {
+  font-size: 20px;
+}
